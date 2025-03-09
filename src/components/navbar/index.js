@@ -14,7 +14,7 @@ import {
 } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { googleProvider, Firebase } from "../../config/firebase";
+import { googleProvider} from "../../config/firebase";
 import {
   getAuth,
   onAuthStateChanged,
