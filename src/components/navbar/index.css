@@ -1,0 +1,234 @@
+.navbar {
+  background-color: #9c82a3 !important;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  top: 0px;
+  right: 0px;
+  min-height: 65px;
+}
+.navbar-sub-container {
+  align-items: center !important;
+  justify-content: space-between !important;
+  height: 100% !important;
+}
+.navbar-logo {
+  color: #e1d1e6 !important;
+  font-weight: 600;
+}
+.pages-conatiner {
+  width: 100%;
+  justify-content: center;
+}
+.pages-name {
+  color: #e1d1e6 !important;
+  font-weight: 400 !important;
+}
+.pages-name:hover {
+  color: #cfb5d6 !important;
+}
+.profile {
+  width: 45px;
+  height: 40px;
+}
+.sign-in-btn {
+  background-color: #88728F !important;
+  color: #E1D1E6 !important;
+  height: 40px;
+  width: 84px !important;
+  border: none !important;
+  border-radius: 4px;
+}
+.sign-in-btn:hover {
+  background-color: #6F6F66 !important;
+  transition: all 0.3s ease-in-out !important;
+  color: #FFFFFF !important;
+}
+
+.custom-dropdown .dropdown-toggle::after {
+  display: none !important;
+}
+
+
+/* .navbar .dropdown-menu {
+  background-color: #CFB5D6 !important; 
+  border: none;
+  padding: 12px 6px !important;
+  margin-top: 14px !important;
+  box-shadow: 0px 4px 8px rgba(140, 120, 150, 0.5) !important;
+  border-top: 4px solid #9c82a3 !important;
+} */
+
+
+.navbar .dropdown-menu .dropdown-item {
+  color: #ffffff !important; 
+  border-radius: 5px !important;
+}
+
+
+.navbar .dropdown-menu .dropdown-item:hover {
+  background-color: #9C82A3 !important; 
+  color: #E1D1E6 !important; 
+}
+
+
+
+.modal-content {
+  background-color: #E1D1E6;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header,
+.modal-footer {
+  background-color: #DBC8E0; 
+  border: none;
+}
+
+.modal-title {
+  color: #88728F;
+  font-weight: bold;
+}
+
+.modal-body {
+  color: #654222; 
+}
+
+
+
+.btn-login {
+  background-color: #66FF66 !important;
+  border: none !important;
+  color: #88728F !important; 
+  font-weight: bold !important;
+}
+
+.btn-login:hover {
+  background-color: #57E657 !important;
+}
+
+.btn-signup {
+  background-color: #9C82A3 !important;
+  border: none !important;
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.btn-signup:hover {
+  background-color: #88728F !important;
+}
+
+.btn-google {
+  background-color: #88728F !important; 
+  border: none !important;
+  color: white !important;  
+  width: 100% !important;
+  font-weight: bold !important;
+}
+
+.btn-google:hover {
+  background-color: #9C82A3 !important; 
+}
+
+.modal-title {
+  color: #88728F !important; 
+  font-weight: bold !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ✅ Offcanvas Background */
+.offcanvas {
+  background-color: #9C82A3 !important; /* Same as Navbar */
+}
+
+/* ✅ Offcanvas Header */
+.offcanvas-header {
+  background-color: #9C82A3 !important;
+}
+
+.offcanvas-title {
+  color: #E1D1E6 !important; /* Same as Navbar Logo */
+  font-weight: 600;
+}
+
+/* ✅ Offcanvas Close Button */
+.btn-close {
+  color: #E1D1E6 !important;
+}
+
+/* ✅ Offcanvas Body */
+.offcanvas-body {
+  background-color: #9C82A3 !important;
+  padding: 15px;
+}
+
+/* ✅ Offcanvas Navigation Links */
+.offcanvas-body .pages-name {
+  color: #E1D1E6 !important;
+  font-weight: 400 !important;
+}
+
+.offcanvas-body .pages-name:hover {
+  color: #CFB5D6 !important; /* Pastel Lilac */
+}
+
+/* ✅ Offcanvas Dropdown */
+.offcanvas-body .dropdown-menu {
+  background-color: #CFB5D6 !important; /* Same as Desktop Dropdown */
+  border: none;
+  padding: 12px 6px !important;
+  margin-top: 8px !important;
+  box-shadow: 0px 4px 8px rgba(140, 120, 150, 0.5) !important;
+  border-top: 4px solid #9c82a3 !important;
+}
+
+.offcanvas-body .dropdown-item {
+  color: #FFFFFF !important;
+  border-radius: 5px !important;
+}
+
+.offcanvas-body .dropdown-item:hover {
+  background-color: #9C82A3 !important;
+  color: #E1D1E6 !important;
+}
+
+/* ✅ Offcanvas Sign-in Button */
+.offcanvas-body .sign-in-btn {
+  background-color: #88728F !important;
+  color: #E1D1E6 !important;
+  height: 40px;
+  width: 100%;
+  border: none !important;
+  border-radius: 4px;
+}
+
+.offcanvas-body .sign-in-btn:hover {
+  background-color: #6F6F66 !important;
+  transition: all 0.3s ease-in-out !important;
+  color: #FFFFFF !important;
+}
+
+
+
+/* Offcanvas dropdown ka overflow fix karna */
+.dropdown-menu {
+  position: absolute !important;
+  left: auto !important;
+  /* top: 46px !important; */
+  right: 0px !important;
+  width: 260px !important;
+  transform: translateX(-20px) !important; 
+  z-index: 10px !important; /* Make sure it's above offcanvas */
+}
